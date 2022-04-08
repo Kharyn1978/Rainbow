@@ -2,7 +2,6 @@ let theColour;
 
 function redFunction() {
     let redBox=document.getElementById('red');
-    console.log(redBox);
     redBox.style.backgroundColor='red';
     redBox.innerHTML='red';
 }
