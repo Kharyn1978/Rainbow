@@ -1,23 +1,44 @@
-console.log("JS Basics and Debugging Challenge")            
+let theColour;
 
-// The following 2 lines both have errors in them
-console.log("Lesson 1: Logging a String to the console");
-console.log("Hello World!");
+function redFunction() {
+    let redBox=document.getElementById('red');
+    console.log(redBox);
+    redBox.style.backgroundColor='red';
+    redBox.innerHTML='red';
+}
 
-console.log("n");
+function orangeFunction() {
+    let orangeBox=document.getElementById('orange');
+    orangeBox.style.backgroundColor='orange';
+    orangeBox.innerHTML='orange';
+}
 
-// There is are 2 errors in the following lines
-console.log("Lesson 2: This is how you create a variable:");
-let number = 86;
-console.log("number")//86 ;
+function yellowFunction() {
+    let yellowBox=document.getElementById('yellow');
+    yellowBox.style.backgroundColor='yellow';
+   yellowBox.innerHTML='yellow';
+}
 
-console.log("n");
+function greenFunction() {
+    let greenBox=document.getElementById('green');
+    greenBox.style.backgroundColor='green';
+   greenBox.innerHTML='green';
+}
 
-// The plus sign is not showing, debug this and have it appear inside the String
-console.log("Lesson 3 is concatinating Strings using the " + " sign." );
+function blueFunction() {
+    let blueBox=document.getElementById('blue');
+    blueBox.style.backgroundColor='blue';
+   blueBox.innerHTML='blue';
+}
 
-// These variables are undefined and breaking the String that is using them 
-let concatString;
-let concatVar;
-console.log("You can concatenate " + concatVar + " into " + concatString + " to log them into the console");
+function indigoFunction() { 
+    let indigoBox=document.getElementById('indigo');
+    indigoBox.style.backgroundColor='indigo';
+    indigoBox.innerHTML='indigo';
+}
 
+function purpleFunction() {
+    let purpleBox=document.getElementById('purple');
+    purpleBox.style.backgroundColor='purple';
+    purpleBox.innerHTML='purple';    
+}
